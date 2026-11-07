@@ -139,7 +139,6 @@ the dataset and computes the closeness bands live.
 data/raw/          scraped inputs and the officials lookup (committed)
 data/processed/    generated dataset (gitignored)
 src/               scraper, pipeline, features, models, figures
-docs/              DATASET_REFERENCE.txt: columns, dtypes, filters
 figures/           generated figures
 output/            generated results (gitignored)
 ```

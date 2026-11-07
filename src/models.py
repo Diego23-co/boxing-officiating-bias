@@ -91,7 +91,7 @@ def make_models(n: int, balanced: bool = False) -> dict:
     """
     cw = "balanced" if balanced else None
 
-    # Leaf-size floor: at least 5 rows, and 3% of the sample rounded down At
+    # Leaf-size floor: at least 5 rows, and 3% of the sample rounded down. At
     # n = 238 that is 7, at n = 978 it is 29. This stops trees from carving out
     # leaves that describe a handful of bouts.
     min_leaf = max(5, int(0.03 * n))
